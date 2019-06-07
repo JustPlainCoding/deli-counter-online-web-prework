@@ -21,6 +21,11 @@ def take_a_number(katz_deli, guest)
 end
 
 def now_serving(katz_deli)
-  guest = katz_deli.shift
-  puts "Currently serving #{guest}"
+  serving = ""
+  if katz_deli.size == 0
+    serving += "There is nobody waiting to be served"
+  else
+    guest = katz_deli.shift
+    serving += "Currently serving #{guest}."
+  end
 end
