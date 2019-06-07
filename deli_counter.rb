@@ -23,7 +23,7 @@ end
 def now_serving(katz_deli)
   serving = ""
   if katz_deli.size == 0
-    serving += "There is nobody waiting to be served"
+    serving += "There is nobody waiting to be served!"
   else
     guest = katz_deli.shift
     serving += "Currently serving #{guest}."
