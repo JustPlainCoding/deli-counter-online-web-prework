@@ -17,7 +17,7 @@ end
 
 def take_a_number(katz_deli, guest)
   katz_deli << guest
-  spot = katz_deli.size + 1
+  spot = katz_deli.size
   puts "Welcome, #{guest}. You are number #{spot} in line."
 end
 
