@@ -7,6 +7,7 @@ def line(katz_deli)
       if index == 0
         current_line = ""
       end
+    end
   end
 end
 
