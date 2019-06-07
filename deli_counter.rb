@@ -5,10 +5,10 @@ def line(katz_deli)
   else
     katz_deli.each_with_index do |person, index|
       if index == 0
-        current_line.push("The line is currently: 1. #{person}")
+        current_line += "The line is currently: 1. #{person}")
       else
         spot = index + 1
-        current_line.push(" #{spot}. #{person}")
+        current_line += " #{spot}. #{person}"
       end
     end
   end
