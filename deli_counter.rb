@@ -17,7 +17,6 @@ end
 
 def take_a_number(katz_deli, guest)
   katz_deli << guest
-  
   puts "Welcome, #{guest}. You are number #{katz_deli.size} in line."
 end
 
