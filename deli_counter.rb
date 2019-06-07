@@ -6,6 +6,9 @@ def line(katz_deli)
     katz_deli.each_with_index do |person, index|
       if index == 0
         current_line += "The line is currently: 1. #{person}."
+      else
+        spot = index + 1
+        current_line += "#{spot}. #{person}
       end
     end
   end
