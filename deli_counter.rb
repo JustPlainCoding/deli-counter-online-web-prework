@@ -9,7 +9,7 @@ def line(katz_deli)
       end
     end
   end
-  current_line
+  puts "#{current_line}"
 end
 
 def take_a_number(katz_deli)
