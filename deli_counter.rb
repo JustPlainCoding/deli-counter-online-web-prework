@@ -15,7 +15,10 @@ def line(katz_deli)
   puts "#{current_line}"
 end
 
-def take_a_number(katz_deli)
+def take_a_number(katz_deli, guest)
+  katz_deli << guest
+  spot = katz_deli.size + 1
+  puts "Welcome, #{guest}. You are number #{spot} in line."
 end
 
 def now_serving(katz_deli)
