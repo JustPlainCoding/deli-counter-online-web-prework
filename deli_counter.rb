@@ -8,7 +8,7 @@ def line(katz_deli)
         current_line += "The line is currently: 1. #{person}."
       else
         spot = index + 1
-        current_line += "#{spot}. #{person}
+        current_line += "#{spot}. #{person}"
       end
     end
   end
