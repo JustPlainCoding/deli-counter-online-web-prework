@@ -1,8 +1,7 @@
 def line(katz_deli)
   current_line = ""
   if katz_deli.size == 0
-    puts "The line is currently empty."
-    break
+    current_line += "The line is currently empty."
   else
     katz_deli.each_with_index do |person, index|
       if index == 0
