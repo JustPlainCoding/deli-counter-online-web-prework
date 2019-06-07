@@ -7,10 +7,8 @@ def line(katz_deli)
       if index == 0
         current_line += "The line is currently: 1. #{person}."
       elsif (index == katz_deli.size - 1)
-        current_line += " ((#{katz_deli} + 1). #{person}"
-      else
         spot = index + 1
-        current_line += " #{spot}. "
+        current_line += " #{spot}. #{person}"
       end
     end
   end
