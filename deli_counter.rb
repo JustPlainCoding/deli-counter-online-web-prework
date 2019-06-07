@@ -28,4 +28,5 @@ def now_serving(katz_deli)
     guest = katz_deli.shift
     serving += "Currently serving #{guest}."
   end
+  puts "#{serving}"
 end
